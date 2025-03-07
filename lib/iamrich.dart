@@ -18,5 +18,4 @@ class IamRich extends StatelessWidget{
         )
     );
   }
-  
 }
