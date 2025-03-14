@@ -8,9 +8,10 @@ class MiCart extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         backgroundColor: Colors.teal,
-        appBar: AppBar(title: Text("I Am Rich"), backgroundColor: Colors.white),
+        appBar: AppBar(title: Text("My Cart"), backgroundColor: Colors.white),
         body: SafeArea(
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               CircleAvatar(
                 radius: 50.0,
@@ -35,6 +36,41 @@ class MiCart extends StatelessWidget {
                   letterSpacing: 2.5
                 ),
               ),
+              Card(
+                  margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
+                child: ListTile(
+                  leading: Icon(
+                    Icons.phone,
+                    color: Colors.teal
+                  ),
+                  title: Text(
+                    '123456789',
+                    style: TextStyle(
+                        color: Colors.teal.shade900,
+                        fontFamily: 'SourceSans3-Regular',
+                        fontSize: 20.0
+                    ),
+                  ),
+                ),
+              ),
+              Card(
+                margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
+                child: ListTile(
+                  leading: Icon(
+                      Icons.email,
+                      color: Colors.teal
+                  ),
+                  title: Text(
+                    'abc@gmail.com',
+                    style: TextStyle(
+                        color: Colors.teal.shade900,
+                        fontFamily: 'SourceSans3-Regular',
+                        fontSize: 20.0
+                    ),
+                  ),
+                ),
+              ),
+
             ],
           ),
         ),
@@ -42,3 +78,27 @@ class MiCart extends StatelessWidget {
     );
   }
 }
+// Container(
+// padding: EdgeInsets.all(10.0),
+// color: Colors.white,
+// margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
+// child: Row(
+// children: <Widget>[
+// Icon(
+// Icons.phone,
+// color: Colors.teal,
+// ),
+// SizedBox(
+// width: 10.0,
+// ),
+// Text(
+// '123456789',
+// style: TextStyle(
+// color: Colors.teal.shade900,
+// fontFamily: 'SourceSans3-Regular',
+// fontSize: 20.0
+// ),
+// )
+// ],
+// ),
+// ),
