@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:start/iamrich.dart';
+
+import 'mi_cart.dart';
 // cd android
 // .\gradlew clean build
 void main() {
-  runApp(const IamRich());
+  runApp(const MiCart());
 }
 
 // class MyApp extends StatelessWidget {
