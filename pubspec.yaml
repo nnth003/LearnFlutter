@@ -28,9 +28,13 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
-#  connectivity_plus: ^2.3.9
+  #  connectivity_plus: ^2.3.9
   flutter:
     sdk: flutter
+
+  audioplayers: ^6.4.0
+#  english_words: ^4.0.0
+
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -72,6 +76,7 @@ flutter:
     - images/ball3.png
     - images/ball4.png
     - images/ball5.png
+    - assets/
 
   fonts:
     - family: Pacific
