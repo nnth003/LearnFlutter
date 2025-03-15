@@ -1,10 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:start/dice_page.dart';
 
 import 'mi_cart.dart';
 // cd android
 // .\gradlew clean build
 void main() {
-  runApp(const MiCart());
+  // runApp(const IamRich());
+  // runApp(const MiCart());
+  runApp(const DicePage());
 }
 
 // class MyApp extends StatelessWidget {
