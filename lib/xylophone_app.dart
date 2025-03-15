@@ -30,60 +30,12 @@ class XylophoneApp extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
               buildKey(1, Colors.red),
-              Expanded(
-                child: TextButton(
-                  style: TextButton.styleFrom(backgroundColor: Colors.orange),
-                  onPressed: () {
-                    playSound(2);
-                  },
-                  child: Text('Click Me'),
-                ),
-              ),
-              Expanded(
-                child: TextButton(
-                  style: TextButton.styleFrom(backgroundColor: Colors.yellow),
-                  onPressed: () {
-                    playSound(3);
-                  },
-                  child: Text('Click Me'),
-                ),
-              ),
-              Expanded(
-                child: TextButton(
-                  style: TextButton.styleFrom(backgroundColor: Colors.green),
-                  onPressed: () {
-                    playSound(4);
-                  },
-                  child: Text('Click Me'),
-                ),
-              ),
-              Expanded(
-                child: TextButton(
-                  style: TextButton.styleFrom(backgroundColor: Colors.teal),
-                  onPressed: () {
-                    playSound(5);
-                  },
-                  child: Text('Click Me'),
-                ),
-              ),
-              Expanded(
-                child: TextButton(
-                  style: TextButton.styleFrom(backgroundColor: Colors.blue),
-                  onPressed: () {
-                    playSound(6);
-                  },
-                  child: Text('Click Me'),
-                ),
-              ),
-              Expanded(
-                child: TextButton(
-                  style: TextButton.styleFrom(backgroundColor: Colors.purple),
-                  onPressed: () {
-                    playSound(7);
-                  },
-                  child: Text('Click Me'),
-                ),
-              ),
+              buildKey(2, Colors.orange),
+              buildKey(3, Colors.yellow),
+              buildKey(4, Colors.green),
+              buildKey(5, Colors.teal),
+              buildKey(6, Colors.blue),
+              buildKey(7, Colors.purple),
             ],
           ),
         ),
