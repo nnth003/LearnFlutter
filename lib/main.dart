@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:start/dice_page.dart';
 import 'package:start/magic_8_ball.dart';
+import 'package:start/Quizzler/quizzler.dart';
 import 'package:start/xylophone_app.dart';
 
 import 'mi_cart.dart';
@@ -11,7 +12,8 @@ void main() {
   // runApp(const MiCart());
   // runApp(const DicePage());
   // runApp(const Magic8Ball());
-  runApp(const XylophoneApp());
+  // runApp(const XylophoneApp());
+  runApp(const Quizzler());
 }
 
 // class MyApp extends StatelessWidget {
