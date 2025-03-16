@@ -79,6 +79,7 @@ flutter:
     - images/ball4.png
     - images/ball5.png
     - assets/
+    - images/background.png
 
   fonts:
     - family: Pacific
