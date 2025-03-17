@@ -35,6 +35,7 @@ dependencies:
   audioplayers: ^6.4.0
   rflutter_alert: ^2.0.7
   cupertino_icons: ^1.0.8
+  font_awesome_flutter: ^10.8.0
   #  english_words: ^4.0.0
 
 

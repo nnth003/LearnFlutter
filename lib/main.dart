@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:start/BMI/bmi.dart';
 import 'package:start/Story/stories.dart';
 import 'package:start/dice_page.dart';
 import 'package:start/magic_8_ball.dart';
@@ -15,7 +16,8 @@ void main() {
   // runApp(const Magic8Ball());
   // runApp(const XylophoneApp());
   // runApp(const Quizzler());
-  runApp(const Stories());
+  // runApp(const Stories());
+  runApp(const BMI());
 }
 
 // class MyApp extends StatelessWidget {
