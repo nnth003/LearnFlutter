@@ -17,7 +17,8 @@ void main() {
   // runApp(const XylophoneApp());
   // runApp(const Quizzler());
   // runApp(const Stories());
-  runApp(const BMI());
+  // runApp(const BMI());
+  runApp(const Clima());
 }
 
 // class MyApp extends StatelessWidget {

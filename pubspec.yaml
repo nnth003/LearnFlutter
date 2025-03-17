@@ -36,6 +36,7 @@ dependencies:
   rflutter_alert: ^2.0.7
   cupertino_icons: ^1.0.8
   font_awesome_flutter: ^10.8.0
+  geolocator: ^13.0.2
   #  english_words: ^4.0.0
 
 
